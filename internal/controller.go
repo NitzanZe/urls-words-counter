@@ -144,7 +144,7 @@ func (controller *Controller) worker() {
 			}
 			continue
 		}
-		controller.logger.Debugf("Top words for url %v: %v", url, wordCount)
+		controller.logger.Debugf("Words extracted from url %v: %v", url, wordCount)
 		controller.resultChan <- wordCount
 	}
 }
