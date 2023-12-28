@@ -4,7 +4,7 @@
 ### The service will utilize the number of CPU cores and create workers that will work in parallel (With rate limitation)
 
 ### Prerequisites:
-    * Make installed
+    * 'Make' installed
     * Go version 1.21 or later installed (Needed to be able to build the service)
     
 ### To run the service follow the next steps using the provided Makefile.
