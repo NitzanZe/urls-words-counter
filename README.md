@@ -3,7 +3,10 @@
 ### Given a list of urls containing essays and a list of valid words, the service will output he top 10 words from all the essays combined.
 ### The service will utilize the number of CPU cores and create workers that will work in parallel (With rate limitation)
 
-### To run the service follow the next steps using the provided Makefile
+### Prerequisites:
+    * Go version 1.21 or later (Needed to be able to build the service)
+    
+### To run the service follow the next steps using the provided Makefile.
 
 ```
 * Build the binary
